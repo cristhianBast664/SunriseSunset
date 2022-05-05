@@ -1,0 +1,47 @@
+.boton-principal {
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: rgb(38, 134, 43);
+  color: white;
+  border: none;
+}
+
+
+
+.boton-principal:hover {
+  outline: 2px solid rgb(38, 134, 43);
+  color: rgb(38, 134, 43);
+  background-color: white;
+  font-weight: bold;
+}
+
+.titulo-principal {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.contenedor-inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-principal {
+  width: 250px;
+  margin: 30px;
+}
+
+.contenedor-centrar {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+@media screen and (max-width: 920px) {
+  .contenedor-centrar {
+    display: flex;
+    flex-direction: column;
+  }
+}

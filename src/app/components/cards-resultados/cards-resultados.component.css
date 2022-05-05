@@ -1,0 +1,12 @@
+.contenedor-principal {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.cartas {
+  margin: 0 auto;
+  margin-top: 35px;
+  text-align: center;
+}
